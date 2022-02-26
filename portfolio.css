@@ -1,0 +1,548 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Akaya+Telivigala&family=Averia+Sans+Libre&family=Balsamiq+Sans:wght@700&family=Indie+Flower&family=Noto+Sans+Display:wght@600&family=Padauk:wght@700&family=Poppins&family=Rubik&family=Source+Sans+Pro&display=swap');
+
+
+.navigation{
+    display: flex;
+    height: 49px;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    background-color: white;
+    /* box-shadow:1px 1px 3px #000000; */
+}
+
+.logo{
+    display: flex;
+    padding-top: 3px;
+    justify-content: space-between;
+    /* width: 240px; */
+    padding-left: 90px;
+}
+
+.Vaishnavi{
+    color: black;
+    font-family: 'Acme', sans-serif;}
+
+.Portfolio{
+    color: #864879;
+    font-family: 'Acme', sans-serif;}
+
+.list{
+    list-style-type: none;
+    width: 390px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6px;
+    font-size: 19px;
+    font-weight: bold;
+    padding-right: 90px;
+    font-family: 'Poppins', sans-serif;
+    color: #864879;
+    /* text-transform: uppercase; */
+}
+
+
+.Home:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+.About:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+.Projects:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+.Contact:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+.nav{
+    width: 100%;
+    height: 400px;
+    background-color: #864879;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 4px #000000b6;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-bottom: 50px;
+
+}
+
+.text{
+    width: 53%;
+    display: block;
+    justify-content: space-evenly;
+    padding-top: 120px;
+}
+
+.heading{
+    font-family: 'Padauk', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 19px;
+}
+
+.para{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    padding-right: 100px;
+    color: rgba(255, 255, 255, 0.687);
+    font-size: 15px;
+    /* font-weight: bold; */
+}
+
+.pic{
+     padding-top: 28px;
+}
+
+.body{
+    height: 1400px;
+    width: 100%;
+}
+
+.ee{
+    color: #864879;
+    font-family: 'Poppins', sans-serif ;
+    font-size: 29px;
+    text-align:center;
+    margin-top: 62px;
+}
+
+.EduExp{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 45px;
+
+}
+
+.edu{
+    height: 370px;
+    width: 35%;
+    background-color: #8648764c;
+    box-shadow: 2px 2px 3px #864878b8;
+    border-radius: 2px;
+}
+
+.exp{
+    height: 370px;
+    width: 35%;
+    background-color: #8648764c;
+    border-radius: 2px;
+    box-shadow: 2px 2px 3px #864878b8;
+}
+
+.eheading{
+text-align: center;
+padding-top: 17px;
+padding-bottom: 17px;
+background-color: #864878d0;
+color: white;
+font-family: 'Poppins', sans-serif;;
+}
+
+.BE{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+.HSC{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 70px;
+    padding-top: 25px;
+}
+
+.SSC{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 70px;
+    padding-top: 27px;
+}
+
+.OI{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 83px;
+    padding-top: 30px;
+}
+
+.GGT{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 83px;
+    padding-top: 27px;
+}
+
+.h3{
+    font-size: 20px;
+    color: #864879;
+    font-size: 20px;
+}
+
+.pre{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    color: #864876b4;
+    font-weight: bold;
+}
+
+.sec{
+    width: 100%;
+    height: 350px;
+    background-color: #864879;
+    margin-top: 80px;
+}
+
+.skills{
+    padding-top: 53px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align:center;
+    /* text-transform: uppercase; */
+}
+
+.skl{
+    width: 55%;
+    padding-left: 330px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Design{
+    /* width: 900px; */
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 35px;
+    font-size: 19px;
+    
+}
+
+.bg1{
+    background-color: white;
+    border-radius: 5px;
+    color: #864879;
+    width: 140px;
+    height: 30px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.bg2{
+    background-color: white;
+    border-radius: 5px;
+    color: #864879;
+    width: 140px;
+    height: 30px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.bg3{
+    background-color: white;
+    border-radius: 5px;
+    color: #864879;
+    width: 140px;
+    height: 30px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.bg4{
+    background-color: white;
+    border-radius: 5px;
+    color: #864879;
+    width: 140px;
+    height: 30px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.bg5{
+    background-color: white;
+    border-radius: 5px;
+    color: #864879;
+    width: 140px;
+    height: 30px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+
+.Language{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 23px;
+    font-size: 19px;
+    
+}
+
+.lang{
+    width: 44%;
+    padding-left: 417px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.software{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 23px;
+    font-size: 19px;
+    
+}
+
+.soft{
+    width: 23%;
+    padding-left: 574px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec2{
+    width: 100%;
+    height: 660px;
+    background-color: #8648764c;
+
+}
+
+.projects{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #864879;
+    padding-top: 50px;
+}
+
+.box{
+    height: 470px;
+    width: 830px;
+    box-shadow: 2px 2px 4px #864879;
+    border-radius: 5px;
+    background-color: #86487771;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pimg{
+    padding-left: 50px;
+    padding-top: 8px;
+    /* width: 50%; */
+    /* display: flex; */
+    /* justify-content: flex-start; */
+}
+
+.details{
+    margin-right: 50px;
+}
+
+.ph1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 29px;
+    color: #783d6b;
+    padding-top: 98px;
+    padding-right: 100px;
+    padding-left: 50px;
+    text-decoration: underline;
+}
+
+.ph2{
+    padding-top: 5px;
+    padding-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+}
+
+.ppara{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.81);
+    font-size: 14px;
+    padding-top: 25px;
+    padding-right: 55px;
+    padding-left: 50px;
+}
+
+.pbutton{
+    background-color: #864879;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 111px;
+    height: 30px;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 14px;
+    border-radius: 20px;
+}
+
+.pbutton:hover{
+    background-color: white;
+    color: #783d6b;
+}
+
+.sec3{
+    width: 100%;
+    height: 400px;
+    background-color: #864879;
+    
+}
+
+.about{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: white;
+    padding-top: 50px;
+}
+
+.ap{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.755);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 30px;
+}
+
+.ap2{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.755);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 15px;
+}
+
+.resume{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    /* background-color: white; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 30px;
+}
+
+.download{
+    font-size: 20px;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+.resumeb{
+    width: 96px;
+    height: 25px;
+    font-size: 16px;
+    margin: auto;
+    text-align: center;
+    color: #783d6b;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 13px;
+    padding-top: 4px;
+    border-radius: 5px;
+}
+
+.resumeb:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 2px solid white;
+}
+
+.sec41{
+    height: 260px;
+    width: 100%;
+}
+
+.contact{
+    color: #783d6b;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.mail{
+    width: 300px;
+    height: 32px;
+    padding-top: 15px;
+    margin: auto;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 28px;
+    background-color: #783d6b;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Email{
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif ;
+    padding-top: 0.1px;
+}
+
+.vs{
+    color: white;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 0.1px;
+}
+
+.SM{
+    width: 7.7%;
+    margin: auto;
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    height: 35px;
+    width: 35px;
+}
+
+.cr{
+    height: 5px;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    margin-bottom: 2px;
+    background-color: #783d6b65;
+}
